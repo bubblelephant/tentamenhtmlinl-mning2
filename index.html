@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Index</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <div class="container">
+           
+                <nav class="nav"><strong><h1>   Välkomen till start sida!  </h1></strong>
+                    <ul>
+                        <li><a href="index.html" id="indexsida" class="indexsida">Start sida</a></li>
+                        <li><a href="list.html" id="listsida" class="listsida">List sida</a></li>
+                        <li><a href="graf.html" id="grafisksida" class="grafisksida">Grafisk sida</a></li>
+                    </ul>
+                
+                 </nav>
+                
+        <main>
+            <h2>HEJ!</h2>
+            <p>Jag är gjord i grid;
+            <br>    
+            med line-metod i CSS.
+            <br>
+            Sidan innehåller "Nav, ""Main", "Footer" och
+            <br>
+             3 divar med 2 sidebars och 1 content sida.
+             <br>
+              Allt är inkapsalt i "container".
+            <br>
+            Grid-template-columns har minskats till 400 px bredd.</p>
+        </main>
+        <div id="sidebar1">Sidebar</div>
+        <div id="sidebar2">Sidebar</div>
+        <div id="content1">
+            <form id="form" name="form" method="post" action="">
+
+                <fieldset style="width: 85%;">
+                <legend>FORMULÄR</legend>
+                
+                <label for="fnamn">Förnamn:</label>
+                <br>
+                <input type="text" name="fnamn" id="fnamn" placeholder="Förnamn">
+                <br>
+                <label for="enamn">Efternamn:</label>
+                <br>
+                <input type="text" name="enamn" id="enamn" placeholder="Efternamn">
+                <br>
+                <label for="epost">E-post:</label>
+                <br>
+                <input type="text" name="epost" id="epost" placeholder="E-post">
+                <br>
+                <label for="meddelande">Meddelande:</label>
+                <br>
+                <textarea name="meddelande" id="meddelande" cols="40" rows="5"placeholder="Skriv din meddelande här"></textarea>
+                <br>
+                <label for="skicka"></label>
+                <input type="submit" name="skicka" id="submit" value="Submit" />
+                
+                </fieldset>
+                
+                </form>
+        </div>
+        <footer>Footer</footer>
+        </div>
+</body>
+</html>
